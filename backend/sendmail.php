@@ -10,7 +10,7 @@ session_destroy();
     $sender_name=$_POST['name'];
     $recipient_mail='mwkariuki2e@gmail.com';
 
-$to      = $recipientmail;
+$to      = $recipient_mail;
 $subject = $sender_subject;
 $message = $sender_message;
 $headers = array(
