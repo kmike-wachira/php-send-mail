@@ -8,7 +8,7 @@ session_destroy();
     $sender_message=$_POST['message'];
     $sender_subject=$_POST['subject'];
     $sender_name=$_POST['name'];
-    $recipient_mail='mwkariuki2e@gmail.com';
+    $recipient_mail="mwkariuki2e@gmail.com";
 
 $to      = $recipient_mail;
 $subject = $sender_subject;
